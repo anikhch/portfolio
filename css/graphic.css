@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: #fcfcfc;
+   font-family: "Zilla Slab", serif;
+}
+
+.container {
+   width: 1140px;
+   margin: 0 auto;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+img {
+   width: 100%;
+}
+
+header {
+   padding: 50px 0;
+   text-align: center;
+}
+
+header .logo {
+   width: 110px;
+   height: 110px;
+   margin-bottom: 40px;
+}
+.links__list,
+.social__list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   padding-left: 0;
+}
+.links__list {
+   margin-bottom: 40px;
+}
+.links__item a {
+   font-size: 38px;
+   color: #a0a0a0;
+}
+.links__item a:hover,
+.links__item a.active {
+   color: #313131;
+}
+.links__item:not(:last-child) {
+   margin-right: 60px;
+}
+.social__item:not(:last-child) {
+   margin-right: 35px;
+}
+.social__item {
+   width: 16px;
+   height: 16px;
+}
+.social__item-img:hover {
+   cursor: pointer;
+   filter: invert(1);
+}
+
+.social__item:nth-child(2) {
+   width: 25px;
+}
+
+.social__item:nth-child(4) {
+   width: 19px;
+}
+
+/* main */
+
+.main-content {
+   padding: 50px 0;
+}
+
+.main-list {
+   margin-bottom: 40px;
+}
+
+.main-list .links__item a {
+   font-size: 30px;
+}
+
+.main-list .links__item:not(:last-child) {
+   margin-right: 50px;
+}
+
+.media-list {
+   margin-bottom: 70px;
+}
+
+.media-list .links__item a {
+   font-size: 26px;
+}
+
+.media-list .links__item:not(:last-child) {
+   margin-right: 60px;
+}
+
+/* projects */
+
+.projects {
+   display: flex;
+   justify-content: space-between;
+}
+.project__item {
+   text-align: center;
+   width: 30%;
+   transition: 1s;
+}
+
+.project__item:hover {
+   opacity: 0.7;
+}
+
+.project__title {
+   margin-top: 20px;
+   font-weight: normal;
+   font-size: 30px;
+   color: #313131;
+}
+
+/* footer */
+
+footer {
+   padding: 50px 0 100px;
+}
+
+.footer-content a {
+   display: flex;
+   justify-content: center;
+}
+
+.footer-content img {
+   margin-right: 25px;
+   width: 10px;
+}
+
+.footer-content p {
+   font-size: 30px;
+   color: #a0a0a0;
+}
